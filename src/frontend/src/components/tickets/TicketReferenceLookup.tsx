@@ -53,7 +53,7 @@ export default function TicketReferenceLookup({ role }: { role?: Role }) {
             setValue(event.target.value);
             setError("");
           }}
-          className="w-44 font-mono"
+          className="w-44 font-mono text-foreground"
         />
         <Button type="submit" variant="outline">
           Open
